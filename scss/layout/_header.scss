@@ -1,0 +1,24 @@
+
+.heading-primary{ 
+  color:$color-white;
+  text-transform: uppercase;
+  backface-visibility: hidden;
+  margin-bottom:60px;
+ 
+}
+.heading-primary-main{
+display:block;
+font-size:60px;
+animation-name:moveInLeft;
+animation-duration:5s;
+animation-iteration-count: 3s;
+font-weight: 400px;
+letter-spacing: 35px;
+}
+.heading-primary-sub{
+display:block;
+font-size: 20px;
+font-weight: 700;
+letter-spacing:17.4px;
+animation: moveInRight 1s ease-out;
+}
